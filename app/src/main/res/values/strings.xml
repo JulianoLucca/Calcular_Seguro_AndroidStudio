@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Prova1</string>
+
+    <string name="inicio">INÍCIO</string>
+    <string name="txtseguro">Cálculo do Seguro de Carro</string>
+    <string name="idade">Faixa de Idade</string>
+    <string name="percentual">Percentual</string>
+
+    <string name="txtprimeiro">Faixa de Idade</string>
+    <string name="txtsegundo">Faixa de Idade</string>
+    <string name="txtcalcular">Calcular</string>
+
+    <string name="titulo">Preencha o valor do veiculo</string>
+    <string name="money">Valor do veiculo</string>
+    <string name="calculadora">CALCULAR</string>
+
+    <string name="valorSeg">O valor do seguro é %s</string>
+    <string name="valorPar">O valor da parcela do seguro é %s</string>
+</resources>

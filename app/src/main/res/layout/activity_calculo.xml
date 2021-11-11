@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calculo"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="@string/titulo"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/valor"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:hint="@string/money"/>
+
+    <Button
+        android:id="@+id/calcular"
+        android:layout_marginHorizontal="20dp"
+        android:text="@string/calculadora"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/ValorSeguro"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/ValorParcela"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
